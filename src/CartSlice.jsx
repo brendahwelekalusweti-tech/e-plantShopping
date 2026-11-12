@@ -7,6 +7,11 @@ export const CartSlice = createSlice({
   },
   reducers: {
     addItem: (state, action) => {
+        const handleAddToCart = (product) => {
+  dispatch(addItem(product)); // Dispatch the action to add the product to the cart (Redux action)
+  ;
+};
+
     
     },
     removeItem: (state, action) => {
